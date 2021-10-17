@@ -1,0 +1,76 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.google-head{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.G{
+    color: rgb(78, 153, 252);
+}
+.o{
+    color: rgb(172, 31, 31);
+}
+.o_{
+    color: rgb(247, 223, 12);
+}
+.g{
+    color: rgb(78, 153, 252);
+}
+.l{
+    color: rgb(27, 175, 13);
+}
+.e{
+    color: rgb(172, 31, 31);
+}
+
+.google-create{
+    font-size: 35px;
+}
+.placeholder::placeholder{
+    font-size: 18px;
+}
+.placeholder{
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid rgb(216, 207, 207);
+    border-radius: 5px;
+
+}
+.next{
+    background: rgb(76, 137, 241);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+.next:hover{
+    background:rgb(111, 0, 255) ;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+.next:active{
+    background:rgb(111, 0, 255);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: rgb(255, 102, 0);
+    font-weight: 700;
+}
+.next{
+    position: fixed;
+    bottom: 0px;
+}
